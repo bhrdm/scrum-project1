@@ -1,0 +1,117 @@
+body {
+    background-image: url('pictures/inuitlog_foto.jpeg');
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #181a4b;
+    height: 100px;
+    margin: 0px;
+
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.midden {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    margin-right: 150px;
+    gap: 40px;
+    font-family: BM Plex Mono, Menlo, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier, "monospace";
+    color: rgb(221, 185, 6);
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    gap: 10px;
+    color: rgb(221, 185, 6);
+    font-family: BM Plex Mono, Menlo, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier, "monospace";
+}
+
+.flex-container {
+    display: flex;
+    background: #cccccc;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.flex-container>div {
+    background: #cccccc;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+table {
+    display: flex;
+    border-collapse: collapse;
+    width: 100%;
+    justify-content: center;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: rgb(221, 185, 6);
+}
+
+.welkom {
+    color: rgb(221, 185, 6);
+    margin-left: 625px;
+
+}
+
+.film {
+    background-color: white;
+}
+
+.buttons {
+    margin: 0px;
+    gap: 10px;
+    color: rgb(221, 185, 6);
+    font-family: BM Plex Mono, Menlo, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier, "monospace";
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#soort {
+    position: absolute;
+    left: 680px;
+    top: 20%;
+}
+
+.favoriet {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#trash {
+    color: white;
+}
